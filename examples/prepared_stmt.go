@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/squishyent/mymysql/mysql"
+	_ "github.com/squishyent/mymysql/thrsafe"
 	"os"
-	"github.com/ziutek/mymysql/mysql"
-	_ "github.com/ziutek/mymysql/thrsafe"
 )
 
 func printOK() {

@@ -2,7 +2,7 @@
 package autorc
 
 import (
-	"github.com/ziutek/mymysql/mysql"
+	"github.com/squishyent/mymysql/mysql"
 	"io"
 	"log"
 	"net"

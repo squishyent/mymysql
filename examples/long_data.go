@@ -3,12 +3,12 @@
 package main
 
 import (
-	"os"
 	"fmt"
-	"strings"
+	"github.com/squishyent/mymysql/mysql"
+	_ "github.com/squishyent/mymysql/thrsafe"
 	"net/http"
-	"github.com/ziutek/mymysql/mysql"
-	_ "github.com/ziutek/mymysql/thrsafe"
+	"os"
+	"strings"
 )
 
 func printOK() {
